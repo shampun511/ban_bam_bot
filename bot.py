@@ -36,7 +36,7 @@ async def handle_all(msg: Message):
     await msg.reply(f"Добрый день, {msg.from_user.full_name} :)")
 
 
-@bot.message_handler(commands=['ban'], user_id=12312312312312) # здесь укажи свой ID
+@bot.message_handler(commands=['ban'], user_id=1173171265) # здесь укажи свой ID
 async def handle_ban_command(msg: Message):
     # проверяем, что ID передан правильно
     try:
